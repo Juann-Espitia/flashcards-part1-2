@@ -42,7 +42,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img width="800" height="904" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/01281d83-44cb-46e4-bb22-20d938ba802b" />
+<img width="800" height="904" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/bc7b996d-1129-4a97-8ad9-8ae95c76e715" />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
