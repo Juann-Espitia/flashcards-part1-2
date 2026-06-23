@@ -1,10 +1,10 @@
-# Web Development Project 2 - *Flashcards - Part 1*
+# Web Development Project 2 - *Flashcards - Part 1 & 2*
 
 Submitted by: **Juan Espitia**
 
 This web app: **Computer Science Trivia Flashcard app**
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -42,7 +42,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img width="398" height="450" alt="giphy" src="https://github.com/user-attachments/assets/45bc5a42-6a79-4486-bd6f-60a3bf01d7e9" />
+<img width="800" height="904" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/01281d83-44cb-46e4-bb22-20d938ba802b" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
