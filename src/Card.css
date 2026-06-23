@@ -3,10 +3,8 @@
   max-width: 460px;
   height: 280px;
   perspective: 1200px;
-  cursor: pointer;
 }
 
-/* The inner wrapper is what actually rotates in 3D. */
 .card-inner {
   position: relative;
   width: 100%;
@@ -19,7 +17,6 @@
   transform: rotateY(180deg);
 }
 
-/* Both faces sit on top of each other; back-face is hidden when turned away. */
 .card-face {
   position: absolute;
   inset: 0;
@@ -35,6 +32,14 @@
   border-top: 6px solid var(--accent, #64748b);
   background: #ffffff;
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+}
+
+.card.feedback-correct .card-face {
+  box-shadow: 0 12px 30px rgba(4, 120, 87, 0.18);
+}
+
+.card.feedback-incorrect .card-face {
+  box-shadow: 0 12px 30px rgba(185, 28, 28, 0.16);
 }
 
 .card-back {

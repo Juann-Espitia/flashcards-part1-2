@@ -1,30 +1,24 @@
-import { useState } from 'react'
 import { categoryColors } from './cards'
 import './Card.css'
 
-// A single flashcard. It owns the "is this card flipped?" state.
-// Clicking toggles between the question (front) and answer (back).
-function Card({ question, answer, category }) {
-  const [isFlipped, setIsFlipped] = useState(false)
-
+function Card({ question, answer, category, isFlipped, feedback }) {
   const accent = categoryColors[category] ?? '#64748b'
 
   return (
     <div
-      className={`card ${isFlipped ? 'flipped' : ''}`}
-      onClick={() => setIsFlipped(!isFlipped)}
+      className={`card ${isFlipped ? 'flipped' : ''} ${feedback ? `feedback-${feedback}` : ''}`}
       style={{ '--accent': accent }}
     >
       <div className="card-inner">
         <div className="card-face card-front">
           <span className="card-category">{category}</span>
           <p className="card-text">{question}</p>
-          <span className="card-hint">Click to reveal the answer</span>
+          <span className="card-hint">Submit your guess to reveal the answer</span>
         </div>
         <div className="card-face card-back">
           <span className="card-category">{category}</span>
           <p className="card-text">{answer}</p>
-          <span className="card-hint">Click to flip back</span>
+          <span className="card-hint">Use the buttons below to move through the set</span>
         </div>
       </div>
     </div>
